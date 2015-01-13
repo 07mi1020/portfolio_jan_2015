@@ -196,20 +196,20 @@
 	HOME
 	################################################################# */
 
-#home .flex-container a:active,
-#home .flexslider a:active,
-#home .flex-container a:focus,
-#home .flexslider a:focus {
-	outline: none;
-}
+	#home .flex-container a:active,
+	#home .flexslider a:active,
+	#home .flex-container a:focus,
+	#home .flexslider a:focus {
+		outline: none;
+	}
 
-#home .slides,
-#home .flex-control-nav,
-#home .flex-direction-nav {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+	#home .slides,
+	#home .flex-control-nav,
+	#home .flex-direction-nav {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
 
 /* Icon Fonts
 *********************************/
@@ -851,171 +851,9 @@ body {
 	}
 
 /*################################################################
-	SKILLS
+	WORK
 	################################################################# */
 
-	#resume{
-		margin: 5%;
-	}
-
-	.progress-wrap{
-		position: relative;
-		margin-top: 20px;
-	}
-
-	.progress .color1,
-	.progress .color1 .bar-width{
-		background: #A4CA39;
-	}
-
-	.progress .color2,
-	.progress .color2 .bar-width{
-		background: #E44D26;
-	}
-
-	.progress .color3,
-	.progress .color3 .bar-width{
-		background: #2162AF;
-	}
-
-	.progress .color4,
-	.progress .color4 .bar-width{
-		background: #F8DC3D;
-	}
-
-	.progress .color5,
-	.progress .color5 .bar-width{
-		background: #BC0E00;
-	}
-
-	.progress .color6,
-	.progress .color6 .bar-width{
-		background: #E76D00;
-	}
-
-	.progress .color7,
-	.progress .color7 .bar-width{
-		background: #F34F29;
-	}
-
-	.progress .color8,
-	.progress .color8 .bar-width{
-		background: #000000;
-	}
-	.progress .color9,
-	.progress .color9 .bar-width{
-		background: #008BCB;
-	}
-	.progress .color10,
-	.progress .color10 .bar-width{
-		background:  #AC2930;
-	}
-	.progress .color11,
-	.progress .color11 .bar-width{
-		background: #1B96C9;
-	}
-	.progress .color12,
-	.progress .color12 .bar-width{
-		background: #A53836;
-	}
-
-	.progress, 
-	.progress-bar {
-		height: 15px;
-		line-height: 15px;
-		background: #e6e6e6;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-		border-radius: 0;
-		overflow: visible;
-		text-align: right;
-	}
-
-	.progress{
-		position: relative;
-	}
-
-	.progress .bar-width{
-		position: absolute;
-		width: 40px;
-		height: 20px;
-		line-height: 20px;
-		text-align: center;
-		font-size: 12px;
-		font-weight: 700;
-		top: -30px;
-		border-radius: 2px;
-		margin-left: -30px;
-	}
-
-	.progress span{
-		position: relative;
-	}
-
-	.progress span:before{
-		content: " ";
-		position: absolute;
-		width: auto;
-		height: auto;
-		border-width: 8px 5px;
-		border-style: solid;
-		bottom: -15px;
-		right: 8px;
-	}
-
-	.progress .color1 span:before{
-		border-color: #A4CA39 transparent transparent transparent;
-	}
-
-	.progress .color2 span:before{
-		border-color: #E44D26 transparent transparent transparent;
-	}
-
-	.progress .color3 span:before{
-		border-color: #2162AF transparent transparent transparent;
-	}
-
-	.progress .color4 span:before{
-		border-color: #F8DC3D transparent transparent transparent;
-	}
-
-	.progress .color5 span:before{
-		border-color: #BC0E00 transparent transparent transparent;
-	}
-
-	.progress .color6 span:before{
-		border-color: #E76D00 transparent transparent transparent;
-	}
-
-	.progress .color7 span:before{
-		border-color: #F34F29 transparent transparent transparent;
-	}
-
-	.progress .color8 span:before{
-		border-color: #000000 transparent transparent transparent;
-	}
-
-	.progress .color9 span:before{
-		border-color: #008BCB transparent transparent transparent;
-	}
-
-	.progress .color10 span:before{
-		border-color:  #AC2930 transparent transparent transparent;
-	}
-
-	.progress .color11 span:before{
-		border-color: #1B96C9 transparent transparent transparent;
-	}
-
-	.progress .color12 span:before{
-		border-color: #A53836 transparent transparent transparent;
-	}
-
-
-
-
-	/* Work*/
 	#work {
 		padding-top: 60px;
 		margin-bottom: 60px;
@@ -1025,6 +863,30 @@ body {
 
 	#work h3 {
 		margin-bottom: 25px;
+	}
+
+	.tpl6 h3
+	{
+		color:#fff;
+		margin:0;
+		padding:40px 5px 0;
+		font-size:16px;
+		text-transform:uppercase;
+	}
+	.tpl6 .dmbutton
+	{
+		display:inline-block;
+		margin:30px 5px 20px 5px;
+		font-size:13px;
+	}
+
+	.tpl6 .bg
+	{
+		height:100%;
+		width:100%;
+		background-color:#00b3fe;
+		background-color:rgba(0,179,254,.9);
+		text-align:center;
 	}
 
 	.portfolio {
@@ -1037,6 +899,169 @@ body {
 	.portfolio-item .title:before {border-radius:0; display:none}
 	.portfolio-item p {margin:0px 0 30px;}
 	.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+
+/*################################################################
+	SKILLS
+	################################################################# */
+
+	
+
+
+	/*
+$Color_android: #95C03B;
+$Color_html: #E44D26;
+$Color_css: #2162AF;
+$Color_js: #F8DC3D;
+$Color_ruby: #BC0E00;
+$Color_java: #E76D00;
+$Color_git:  #F34F29;
+$Color_architect: #000000;
+$Color_agile: #008BCB;
+$Color_rails: #AC2930;
+$Color_api: #1B96C9;
+$Color_fullstack: #A53836;
+*/
+
+#skills {
+	background: #f7f7f7;
+	margin-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+#skills h3 {
+	margin-bottom: 60px;
+}
+
+.progress-wrap{
+	position: relative;
+	margin-top: 20px;
+}
+
+.progress .color1,
+.progress .color1 .bar-width{
+	background: #A4CA39;
+}
+
+.progress .color2,
+.progress .color2 .bar-width{
+	background: #E44D26;
+}
+
+.progress .color3,
+.progress .color3 .bar-width{
+	background: #2162AF;
+}
+
+.progress .color4,
+.progress .color4 .bar-width{
+	background: #F8DC3D;
+}
+
+.progress .color5,
+.progress .color5 .bar-width{
+	background: #BC0E00;
+}
+
+.progress .color6,
+.progress .color6 .bar-width{
+	background: #E76D00;
+}
+
+.progress .color10,
+.progress .color10 .bar-width{
+	background:  #AC2930;
+}
+.progress .color11,
+.progress .color11 .bar-width{
+	background: #1B96C9;
+}
+
+
+.progress, 
+.progress-bar {
+	height: 15px;
+	line-height: 15px;
+	background: #e6e6e6;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+	overflow: visible;
+	text-align: right;
+}
+
+.progress{
+	position: relative;
+}
+
+.progress .bar-width{
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	top: -30px;
+	border-radius: 2px;
+	margin-left: -30px;
+}
+
+.progress span{
+	position: relative;
+}
+
+.progress span:before{
+	content: " ";
+	position: absolute;
+	width: auto;
+	height: auto;
+	border-width: 8px 5px;
+	border-style: solid;
+	bottom: -15px;
+	right: 8px;
+}
+
+.progress .color1 span:before{
+	border-color: #A4CA39 transparent transparent transparent;
+}
+
+.progress .color2 span:before{
+	border-color: #E44D26 transparent transparent transparent;
+}
+
+.progress .color3 span:before{
+	border-color: #2162AF transparent transparent transparent;
+}
+
+.progress .color4 span:before{
+	border-color: #F8DC3D transparent transparent transparent;
+}
+
+.progress .color5 span:before{
+	border-color: #BC0E00 transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+	border-color: #E76D00 transparent transparent transparent;
+}
+
+.progress .color10 span:before{
+	border-color:  #AC2930 transparent transparent transparent;
+}
+
+.progress .color11 span:before{
+	border-color: #1B96C9 transparent transparent transparent;
+}
+
+
+/*################################################################
+	RESUME
+	################################################################# */
+	#resume{
+		margin: 5%;
+	}
 
 	.nav-tabs>li{
 		margin-bottom: 0px;
@@ -1139,32 +1164,6 @@ body {
 		border-bottom: 0 none;
 	}
 
-
-	.tpl6 h3
-	{
-		color:#fff;
-		margin:0;
-		padding:40px 5px 0;
-		font-size:16px;
-		text-transform:uppercase;
-	}
-	.tpl6 .dmbutton
-	{
-		display:inline-block;
-		margin:30px 5px 20px 5px;
-		font-size:13px;
-	}
-
-	.tpl6 .bg
-	{
-		height:100%;
-		width:100%;
-		background-color:#00b3fe;
-		background-color:rgba(0,179,254,.9);
-		text-align:center;
-	}
-
-	/* Testimonials Wrap */
 	#twrap {
 		background: url(../img/t-back.jpg) no-repeat center top;
 		margin-top: 0px;
@@ -1198,19 +1197,10 @@ body {
 		line-height: 30px;
 	}
 
-	/* clients logo */
-	#skills {
-		background: #f7f7f7;
-		margin-top: 0px;
-		padding-top: 80px;
-		padding-bottom: 100px;
-	}
+/*	################################################################
+	CONTACT
+	################################################################# */
 
-	#skills h3 {
-		margin-bottom: 60px;
-	}
-
-	/* Footer */
 	#contact {
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -1233,6 +1223,11 @@ body {
 
 	#contact i:hover {
 		color: #00b3fe
+	}
+
+	.copyright{
+		margin-top: 20px;
+		text-align: center;
 	}
 
 /*	################################################################
